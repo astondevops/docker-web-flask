@@ -17,7 +17,7 @@ ADD static /home/dev/web_server_flask/static
 
 EXPOSE 5000
 
-ENTRYPOINT ["pythocn3","hello.py","runserver"]
+ENTRYPOINT ["python3","hello.py","runserver"]
 CMD ["-h=0.0.0.0"]
 
 
