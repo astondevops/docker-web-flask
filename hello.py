@@ -7,7 +7,7 @@ from wtforms import FloatField, SubmitField
 from wtforms.validators import InputRequired, DataRequired
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'hard to guess string'
+app.config['SECRET_KEY'] = 'hard to guess my string'
 
 manager = Manager(app)
 bootstrap = Bootstrap(app)
